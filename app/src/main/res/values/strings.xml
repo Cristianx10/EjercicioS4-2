@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjercicioS4-2</string>
+    <string name="btn_title_main">Ir al formulario</string>
+    <string name="tv_title_main">No completado</string>
+</resources>
