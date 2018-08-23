@@ -10,44 +10,38 @@
         android:id="@+id/edt_userform_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="109dp"
         android:ems="10"
         android:hint="@string/hint_userform_name"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="109dp" />
 
     <Button
         android:id="@+id/btn_userform_finish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="316dp"
         tools:text="@string/btn_title_userform" />
 
     <EditText
         android:id="@+id/edt_userform_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/hint_userform_email"
         android:inputType="textEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/edt_userform_name"
-        app:layout_constraintTop_toBottomOf="@+id/edt_userform_name" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="175dp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/edt_userform_nick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
         android:ems="10"
         android:hint="@string/hint_userform_username"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/edt_userform_email"
-        app:layout_constraintTop_toBottomOf="@+id/edt_userform_email" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="247dp" />
 </android.support.constraint.ConstraintLayout>
