@@ -1,6 +1,8 @@
 package com.example.ecosistemas.ejercicios4_2;
 
 import android.content.Intent;
+
+import android.provider.SyncStateContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,7 +28,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent solicitud = new Intent(getApplicationContext(), UserFormActivity.class);
 
                 startActivity(solicitud);
+
+                startActivityForResult(solicitud, Constants.REQ_NES_USER);
             }
         });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

@@ -1,4 +1,4 @@
-
+package com.example.ecosistemas.ejercicios4_2;
 
 public class UserModel {
     private String nombre;
